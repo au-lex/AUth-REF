@@ -1,0 +1,31 @@
+/* body   {
+
+    @apply bg-red-950
+} */
+
+
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* .animated-bg {
+    background: linear-gradient(45deg, #008aff, #8e2de2, #ff5e62);
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s infinite;
+  }
+   */
+
+   .animated-bg {
+    background: linear-gradient(-45deg, #043069,#043069, #050113, #030322, #043069);
+    background-size: 400% 400%;
+    animation: gradientAnimation 6s infinite;
+  }
