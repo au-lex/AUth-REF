@@ -15,7 +15,7 @@ const Signup = () => {
 
 
                 <div className="inputCon">
-                    <label className='block text-slate-300 text-[16px] mb-1' >First Name:</label>
+                    <label className='block text-slate-300 text-[16px] mb-1' >Full Name:</label>
                     <input type="text" 
                      className='   bg-transparent  outline-none w-full py-[.6rem] 
                      rounded-[5px] px-4' />
@@ -23,14 +23,25 @@ const Signup = () => {
 
 
                 
+             
+
+
+
+ 
                 <div className="inputCon my-[1.5rem]">
-                    <label className='block text-slate-300 text-[16px] mb-1 ' >  Last Name:</label>
+                    <label className='block text-slate-300 text-[16px] mb-1 ' >  Email:</label>
                     <input type="text" 
                      className='   bg-transparent  outline-none w-full py-[.6rem] 
                      rounded-[5px] px-4' />
                 </div>
 
-
+                 
+                <div className="inputCon my-[1.5rem]">
+                    <label className='block text-slate-300 text-[16px] mb-1 ' >  Phone No:</label>
+                    <input type="text" 
+                     className='   bg-transparent  outline-none w-full py-[.6rem] 
+                     rounded-[5px] px-4' />
+                </div>
                 
                 <div className="inputCon">
                     <label className='block text-slate-300 text-[16px] mb-1' >Password:</label>
@@ -44,11 +55,18 @@ const Signup = () => {
                         Submit</button>
                 </div>
 
-                  <p className='text-center text-gray-300 pt-4'>or signup  </p>
-                  <div className='mt-[2rem] flex justify-center w-full'>
-                    
-                    <ImGoogle2 className='text-gray-300  border  text-[2rem] block' />
-                </div>
+                  <p className='text-center text-gray-300 py-4'>or signup  </p>
+                  
+                  <div className='g py-[3px] w-full flex justify-center'>
+                  <span className='flex'>
+                      {/* <h4>sigup</h4> */}
+                    <FcGoogle className=' text-[2rem] block' /> 
+                  </span>
+
+                  </div>
+
+                  <p className='text-slate-200 text-center pt-4' > already have account? <span className='text-blue-500 font-bold cursor-pointer'>Login</span></p>
+               
 
             </form>
 
