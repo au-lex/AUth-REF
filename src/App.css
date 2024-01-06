@@ -1,9 +1,35 @@
-/* body   {
+body   {
 
-    @apply bg-red-950
-} */
+    /* font-family: 'Dancing Script', cursive; */
+font-family: 'Roboto', sans-serif;
+}
 
 
+.rello  {
+
+    font-family: 'Dancing Script', cursive;
+
+}
+.sign  {
+
+    /* font-family: 'Dancing Script', cursive; */
+
+    background-color: rgba(17, 24, 39, 1);
+}
+
+input {
+    width: 100%;
+    border-radius: 0.375rem;
+    border: 2px solid rgba(55, 65, 81, 1);
+    outline: 0;
+    background-color: rgba(17, 24, 39, 1);
+    padding: 0.75rem 1rem;
+    color: rgba(243, 244, 246, 1);
+  }
+  
+   input:focus {
+    border-color: rgba(167, 139, 250);
+  }
 
 @keyframes gradientAnimation {
     0% {
@@ -16,16 +42,12 @@
       background-position: 0% 50%;
     }
   }
+
+
   
-  /* .animated-bg {
-    background: linear-gradient(45deg, #008aff, #8e2de2, #ff5e62);
-    background-size: 200% 200%;
-    animation: gradientAnimation 3s infinite;
-  }
-   */
 
    .animated-bg {
     background: linear-gradient(-45deg, #043069,#043069, #050113, #030322, #043069);
     background-size: 400% 400%;
-    animation: gradientAnimation 6s infinite;
+    animation: gradientAnimation 4s infinite;
   }

@@ -1,12 +1,16 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
+// import { SiDassaultsystemes } from "react-icons/si";
+import { GrAssistListening } from "react-icons/gr";
 const Onboarding = () => {
   return (
     <>
       <section className='bg-gray-900 h-[100vh] animated-bg relative flex items-center justify-center'>
         <section className="login z-50">
-      <div>
-        <h1 className='text-white text-center text-[40px] mb-[2rem]'>cello</h1>
+      <div className='flex justify-center my-[4rem]'>
+        <span  className='text-yellow-500 text-center  text-[40px] '>
+            <GrAssistListening  className='text-[6rem] text-center block'/></span>
+        <h1 className='text-white text-center text-[40px]  rello'>xel</h1>
       </div>
       <div className="btn">
 <Link to='/signup'>
