@@ -10,7 +10,7 @@ const Onboarding = () => {
       <div className='flex justify-center my-[4rem]'>
         <span  className='text-yellow-500 text-center  text-[40px] '>
             <GrAssistListening  className='text-[6rem] text-center block'/></span>
-        <h1 className='text-white text-center text-[40px]  rello'>xel</h1>
+        <h1 className='text-white text-center text-[40px]  rello'></h1>
       </div>
       <div className="btn">
 <Link to='/signup'>
