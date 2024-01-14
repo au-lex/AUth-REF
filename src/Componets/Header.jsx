@@ -6,6 +6,9 @@ import { HiOutlineUser } from "react-icons/hi2";
 import { RxDashboard } from "react-icons/rx";
 import { BsPatchPlus } from "react-icons/bs";
 import { SiCoop } from "react-icons/si";
+import { CiBellOn } from "react-icons/ci";
+import { PiChatCircleTextLight } from "react-icons/pi";
+import { RiHome2Line } from "react-icons/ri";
 
 
 const Header = () => {
@@ -21,7 +24,7 @@ const Header = () => {
             </div>
             <span className='flex space-x-6'>
             <  CiSearch  className='text-[1.5rem]'  />
-            <FaBell  className='text-[1.5rem]'  />
+            <CiBellOn  className='text-[1.5rem]'  />
             </span>
         </main>
         <main className='fixed w-full z-50 py-2 bg-white shadow-md border bottom-0' >
@@ -29,7 +32,7 @@ const Header = () => {
                 <span>
 <span className='flex justify-center'>
 
-            < TiHome className='text-[1.5rem] ' />
+            < RiHome2Line className='text-[1.5rem] ' />
 </span>
             {/* <h2 >home</h2> */}
                 </span>
@@ -46,7 +49,7 @@ const Header = () => {
                 <span>
 <span className='flex justify-center'>
 
-<RxDashboard  className='text-[1.5rem]'  />
+<PiChatCircleTextLight  className='text-[1.5rem]'  />
 </span>
             {/* <h2 >category</h2> */}
                 </span>
