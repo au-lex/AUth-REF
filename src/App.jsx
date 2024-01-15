@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-  <div className="contaainer  min-h-[100vh]">
+  <div className="contaainer 100 min-h-[100vh]">
 
 {/* <Onboarding /> */}<Header />
 <Home />
