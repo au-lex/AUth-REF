@@ -9,6 +9,9 @@ import {
 import Login from './Pages/Login.jsx';
 import Signup from './Pages/Signup.jsx';
 import Admin from './Pages/Admin.jsx';
+import Profile from './Pages/Profile.jsx';
+import Chat from './Pages/Chat.jsx';
+import Upload from './Pages/Upload.jsx';
 
 const router = createBrowserRouter([
 
@@ -31,6 +34,21 @@ const router = createBrowserRouter([
   {
     path: "/admin",
     element: <Admin />,
+  },
+
+  {
+    path: "/upload",
+    element: <Upload />,
+  },
+
+  {
+    path: "/chat",
+    element: <Chat />,
+  },
+
+  {
+    path: "/profile",
+    element: <Profile />,
   },
 ])
 
