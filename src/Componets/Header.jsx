@@ -34,7 +34,7 @@ const Header = () => {
 
             < RiHome2Line className='text-[1.5rem] ' />
 </span>
-            {/* <h2 >home</h2> */}
+            <h2 >home</h2>
                 </span>
 
                 <span>
@@ -42,7 +42,7 @@ const Header = () => {
 
 <BsPatchPlus   className='text-[1.5rem]'  />
 </span>
-            {/* <h2 >hire item</h2> */}
+            <h2 >upload item</h2>
                 </span>
 
 
@@ -51,7 +51,7 @@ const Header = () => {
 
 <PiChatCircleTextLight  className='text-[1.5rem]'  />
 </span>
-            {/* <h2 >category</h2> */}
+            <h2 >message</h2>
                 </span>
 
                 <span>
@@ -59,7 +59,7 @@ const Header = () => {
 
 < HiOutlineUser  className='text-[1.5rem]'  />
 </span>
-            {/* <h2 >profile</h2> */}
+            <h2 >profile</h2>
                 </span>
          
            
