@@ -4,6 +4,7 @@ import './App.css'
 import Onboarding from './Componets/Onboarding'
 import Home from './Componets/Home'
 import Header from './Componets/Header'
+import Footer from './Componets/Footer'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -12,8 +13,10 @@ function App() {
     <>
   <div className="contaainer 100 min-h-[100vh]">
 
-{/* <Onboarding /> */}<Header />
+{/* <Onboarding /> */}
+<Header />
 <Home />
+<Footer />
   </div>
     </>
   )
