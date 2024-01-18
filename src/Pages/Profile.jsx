@@ -57,7 +57,7 @@ lg:items-center justify-center">
         className="w-16 h-16 rounded-full mr-4 border-2 border-gray-400"
       />
       <div>
-        <h1 className="text-3xl font-bold text-gray-800">John Doe</h1>
+        <h1 className="text-3xl font-bold text-gray-800 capitalize">Script Dev</h1>
         <p className="text-gray-600">Web Developer</p>
       </div>
     </div>
@@ -74,6 +74,7 @@ lg:items-center justify-center">
       <div className="flex items-center mb-4 border py-3 rounded-[5px] px-2">
         <FaUser className="text-gray-600 text-xl mr-2" />
         <div className='flex justify-between w-full'>
+          
           <label className="block text-gray-600 font-semibold">Last Name</label>
           <p className="text-gray-800 ml-2 text-sm">Dev.io</p>
         </div>
