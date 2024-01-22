@@ -12,6 +12,7 @@ import Admin from './Pages/Admin.jsx';
 import Profile from './Pages/Profile.jsx';
 import Chat from './Pages/Chat.jsx';
 import Upload from './Pages/Upload.jsx';
+import Postdetails from './Pages/Postdetails.jsx';
 
 const router = createBrowserRouter([
 
@@ -49,6 +50,11 @@ const router = createBrowserRouter([
   {
     path: "/profile",
     element: <Profile />,
+  },
+
+  {
+    path: "/postdetails/:Pdetails",
+    element: <Postdetails />
   },
 ])
 

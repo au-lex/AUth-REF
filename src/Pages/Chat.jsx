@@ -6,7 +6,9 @@ import Header from '../Componets/Header';
 const Chat = () => {
      
   const [messages, setMessages] = useState([
-    { id: 1, text: "Hi aulex...", type: 'bot' },
+    { id: 1, 
+      text: "Hi aulex...", 
+      type: 'bot' },
   ]);
 
   const [newMessage, setNewMessage] = useState('');
