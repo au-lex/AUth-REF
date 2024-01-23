@@ -53,7 +53,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/postdetails/:Pdetails",
+    path: "/postdetails/:Edetails",
     element: <Postdetails />
   },
 ])

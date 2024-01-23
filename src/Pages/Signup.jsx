@@ -57,7 +57,7 @@ const Signup = () => {
   };
 
   return (
-    <main className='px-[1rem] sign min-h-[100vh]'>
+    <main className='px-[1rem] sign min-h-[100vh] bg-slate-900'>
       <h2 className='text-[2rem] capitalize  text-center  text-slate-100 pt-[2rem]'>Register</h2>
       <form className='mt-[1rem]' onSubmit={handleSubmit}>
         <div className="inputCon">
@@ -66,7 +66,7 @@ const Signup = () => {
             value={fullName}
             onChange={(e) => setFullName(e.target.value)}
             type="text"
-            className='bg-transparent outline-none w-full py-[.6rem] rounded-[5px] px-4'
+            className='bg-transparent border outline-none w-full py-[.6rem] rounded-[5px] px-4'
           />
         </div>
 
@@ -76,7 +76,7 @@ const Signup = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             type="email"
-            className='bg-transparent outline-none w-full py-[.6rem] rounded-[5px] px-4'
+            className='bg-transparent border outline-none w-full py-[.6rem] rounded-[5px] px-4'
           />
         </div>
 
@@ -86,7 +86,7 @@ const Signup = () => {
             value={phoneNumber}
             onChange={(e) => setPhoneNumber(e.target.value)}
             type="text"
-            className='bg-transparent outline-none w-full py-[.6rem] rounded-[5px] px-4'
+            className='bg-transparent border outline-none w-full py-[.6rem] rounded-[5px] px-4'
           />
         </div>
 
@@ -96,7 +96,7 @@ const Signup = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             type="password"
-            className='bg-transparent outline-none w-full py-[.6rem] rounded-[5px] px-4'
+            className='bg-transparent border outline-none w-full py-[.6rem] rounded-[5px] px-4'
           />
         </div>
 <div className='mt-[2rem]'>
