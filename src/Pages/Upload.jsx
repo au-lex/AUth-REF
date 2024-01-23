@@ -55,13 +55,13 @@ const Upload = () => {
         <>
           <Header />
 
-          <div className="container mx-auto pt-[4rem] pb-[6rem]">
+          <div className="c pt-[4rem] pb-[6rem]">
             <h1 className="text-2xl font-extrabold mb-8 text-center text-slate-600"> Upload Your Product</h1>
 
-            <form className="file-upload-form flex justify-center
+            <form className="fileupload-form flex justify-center
              items-center flex-col space-y-4">
               <label htmlFor="file" className="file-upload-label border-dotted border-4
-               border-slate-700 w-[10rem] h-[10rem]   pt-[3rem]
+               border-slate-400 w-[10rem] h-[10rem]   pt-[3rem]
               rounded-full cursor-pointer  
               transition duration-300">
                 <AiOutlineCloudUpload className="text-6xl text-slate-500 mb-2" />

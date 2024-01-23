@@ -22,7 +22,7 @@ const Login  = () => {
         <h4 className='text-slate-100'>loading......</h4> 
     </div>
     </>  }
-    <main className='px-[1rem] sign min-h-[100vh]'>
+    <main className='px-[1rem] bg-slate-900 sign min-h-[100vh]'>
 {/* 
 <span  className='text-yellow-500 text-center  text-[40px] '>
             <GrAssistListening  className='text-[3rem] text-center block'/></span> */}
@@ -43,7 +43,7 @@ const Login  = () => {
                 <div className="inputCon my-[1.5rem]">
                     <label className='block text-slate-300 text-[16px] mb-1 ' >  Email:</label>
                     <input type="text" 
-                     className='   bg-transparent  outline-none w-full py-[.6rem] 
+                     className='   bg-transparent border outline-none w-full py-[.6rem] 
                      rounded-[5px] px-4' />
                 </div>
 
@@ -53,7 +53,7 @@ const Login  = () => {
                 <div className="inputCon">
                     <label className='block text-slate-300 text-[16px] mb-1' >Password:</label>
                     <input type="text" 
-                     className='   bg-transparent  outline-none w-full py-[.6rem] 
+                     className='   bg-transparent border  outline-none w-full py-[.6rem] 
                      rounded-[5px] px-4' />
                 </div>
 

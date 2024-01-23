@@ -125,7 +125,7 @@ const Home = () => {
     <section className="recommend mb-[4rem] ">
       <h1 className='capitalize text-[1.3rem] ml-2 my-[.5rem]'>recommended </h1>
 
-      <section className="container mx-auto flex flex-wrap justify-center gap-8 p-4">
+      <section className="container  flex flex-wrap justify-center gap-8 p-4">
 
 <div className='flex  border'>
   <div className='mr-4'>
